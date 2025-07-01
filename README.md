@@ -1,31 +1,57 @@
-📘 BookDev-Technology
-BookDev-Technology is a modern web-based project focused on exploring and applying the latest innovations in technology — with a special emphasis on Artificial Intelligence and Machine Learning.
+# 📘 BookDev-Technology
 
-This project aims to serve as a platform or foundation for intelligent systems and smart services that integrate real-world AI solutions into modern web applications.
+![FastAPI](https://img.shields.io/badge/FastAPI-async--ready-green?logo=fastapi)
+![Next.js](https://img.shields.io/badge/Frontend-Next.js-blue?logo=next.js)
+![Transformers](https://img.shields.io/badge/NLP-HuggingFace-orange?logo=huggingface)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-🧠 Key Features:
-🔍 AI & Machine Learning Integration
-Designed to support a wide range of AI capabilities — including face detection, face verification, intelligent recommendations, and data analysis.
+**BookDev-Technology** is a full-stack, AI-driven application that showcases the integration of cutting-edge technologies like face recognition, real-time inference, and intelligent language models — designed for performance, scalability, and innovation.
 
-⚙️ Modern Tech Stack
+---
 
-Frontend: Built with Next.js for a fast, responsive, and SEO-friendly UI.
+## 🚀 Features
 
-Backend: Powered by FastAPI + Uvicorn — delivering high-performance, async-ready Python APIs.
+### 🔍 Face & Image Intelligence
+- Face detection and quality scoring using **InsightFace** and **MTCNN**
+- Multi-image comparison to determine the best quality face
+- GPU-accelerated image processing (NVIDIA RTX compatible)
 
-🚀 Modular & Scalable Architecture
-Cleanly separated frontend and backend, making the system easy to maintain, extend, or deploy as microservices.
+### 🤖 Language Intelligence (NLP)
+- Integrates Hugging Face’s `transformers` (e.g., **DialoGPT**) for:
+  - AI chat responses
+  - Smart suggestions
+  - Text generation
 
-📡 Real-Time API Performance
-With asynchronous processing via FastAPI + Uvicorn, the backend is capable of handling real-time inference tasks such as image processing, face quality scoring, or prediction services.
+### 🔐 Authentication & Access Control
+- OAuth2 login with **JWT token**
+- Modular `Auth` system using FastAPI dependencies
 
-🔧 Use Cases (Planned or In Progress)
-✅ Face quality scoring to determine the best image for recognition
+### 🌐 Real-Time Communication
+- **WebSocket** support via FastAPI for live chat and streaming responses
 
-✅ Base64 face verification APIs
+### 🛢️ Hybrid Database System
+- **PostgreSQL** for relational data
+- **MongoDB** (via `motor`) for flexible, async-ready NoSQL storage
 
-🔜 AI-powered document classification
+---
 
-🔜 Intelligent search & recommendation
+## 🧩 Tech Stack
 
-🔜 AI-driven user behavior tracking
+| Layer       | Technology |
+|-------------|------------|
+| Frontend    | [Next.js](https://nextjs.org/) |
+| Backend     | [FastAPI](https://fastapi.tiangolo.com/) + [Uvicorn](https://www.uvicorn.org/) |
+| AI Models   | InsightFace, MTCNN, TensorFlow |
+| NLP Model   | DialoGPT (via [Hugging Face Transformers](https://huggingface.co/transformers/)) |
+| Auth        | OAuth2 + JWT |
+| Database    | PostgreSQL + MongoDB (Motor) |
+| Realtime    | FastAPI WebSocket |
+| GPU Support | RTX 3060 / 4050 compatible |
+
+---
+
+## 🧪 Example Endpoints
+
+### 🔐 Login
+```http
+POST /login
