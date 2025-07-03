@@ -1,5 +1,6 @@
-![image](https://github.com/user-attachments/assets/e46284aa-9c27-4d17-8919-0b80ee474e80)
 # 📘 BookDev-Technology
+![image](https://github.com/user-attachments/assets/e88ebd28-b28d-499d-a96c-80f40f4b92fa)
+![image](https://github.com/user-attachments/assets/3b643427-046d-4e43-b24a-c1edc5d4f79a)
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-async--ready-green?logo=fastapi)
 ![Next.js](https://img.shields.io/badge/Frontend-Next.js-blue?logo=next.js)
